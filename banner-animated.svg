@@ -1,0 +1,263 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420">
+<defs>
+  <linearGradient id="barmL" gradientUnits="userSpaceOnUse" x1="-112" y1="-124" x2="0" y2="16">
+    <stop offset="0%"  stop-color="#51DCF2"/>
+    <stop offset="100%" stop-color="#29D3CC"/>
+  </linearGradient>
+  <linearGradient id="barmR" gradientUnits="userSpaceOnUse" x1="112" y1="-124" x2="0" y2="16">
+    <stop offset="0%"  stop-color="#FCCB4C"/>
+    <stop offset="100%" stop-color="#ABC753"/>
+  </linearGradient>
+  <linearGradient id="btrunk" gradientUnits="userSpaceOnUse" x1="0" y1="16" x2="0" y2="142">
+    <stop offset="0%"   stop-color="#6FE0B6"/>
+    <stop offset="55%"  stop-color="#49D8A4"/>
+    <stop offset="100%" stop-color="#24C58A"/>
+  </linearGradient>
+  <radialGradient id="bjoinFill">
+    <stop offset="0%"   stop-color="#FFFFFF"/>
+    <stop offset="42%"  stop-color="#83DFBE"/>
+    <stop offset="100%" stop-color="#169567"/>
+  </radialGradient>
+  <filter id="bglow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="bsoftglow" x="-80%" y="-80%" width="260%" height="260%">
+    <feGaussianBlur stdDeviation="12" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="bdots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="12" cy="12" r="1.15" fill="#94A3B8" opacity="0.30"/>
+  </pattern>
+  <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%"   stop-color="#0D1526"/>
+    <stop offset="45%"  stop-color="#080C17"/>
+    <stop offset="100%" stop-color="#070A12"/>
+  </linearGradient>
+  <radialGradient id="bgl1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.22"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bgl2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#34D399" stop-opacity="0.26"/><stop offset="100%" stop-color="#34D399" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="bgl3" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.20"/><stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="bbar" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#34D399"/><stop offset="100%" stop-color="#FBBF24"/>
+  </linearGradient>
+  <linearGradient id="bfade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#070A12" stop-opacity="0"/><stop offset="100%" stop-color="#070A12" stop-opacity="0.9"/>
+  </linearGradient>
+</defs>
+
+<rect width="1280" height="420" fill="url(#bbg)"/>
+<rect width="1280" height="420" fill="url(#bdots)" opacity="0.45"/>
+<circle cx="208" cy="180" r="300" fill="url(#bgl1)"/>
+<circle cx="960" cy="220" r="330" fill="url(#bgl2)"/>
+<circle cx="1240" cy="330" r="280" fill="url(#bgl3)"/>
+<g opacity="0.085" fill="none" stroke="#94A3B8" stroke-width="1.6">
+<path d="M0 60 C 300 20, 520 120, 900 44 S 1240 90, 1280 58"/>
+<path d="M0 372 C 260 400, 560 300, 880 366 S 1200 330, 1280 358"/>
+</g>
+
+<!-- pipeline -->
+
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#22D3EE" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 100, 458 100" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#34D399" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 210, 458 210" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.6s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.6s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.6s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#FBBF24" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.6s" repeatCount="indefinite"/></path>
+    <path d="M340 210 C399.0 210, 399.0 320, 458 320" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.6s" repeatCount="indefinite"/></path>
+
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="5" stroke-linecap="round" opacity="0.30"/>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="1.30" stroke-linecap="round" opacity="0.28"/>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="11.75" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.1s" repeatCount="indefinite"/></path>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="8.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.1s" repeatCount="indefinite"/></path>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="5.90" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.1s" repeatCount="indefinite"/></path>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#22D3EE" stroke-width="5.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.1s" repeatCount="indefinite"/></path>
+    <path d="M506 100 C613.0 100, 613.0 148, 720 148" fill="none" stroke="#F8FAFC" stroke-width="1.50" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.1s" repeatCount="indefinite"/></path>
+
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="5" stroke-linecap="round" opacity="0.30"/>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="1.30" stroke-linecap="round" opacity="0.28"/>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="11.75" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="8.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="5.90" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#34D399" stroke-width="5.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 148, 720 148" fill="none" stroke="#F8FAFC" stroke-width="1.50" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="5" stroke-linecap="round" opacity="0.30"/>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="1.30" stroke-linecap="round" opacity="0.28"/>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="11.75" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.9s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="8.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.9s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="5.90" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.9s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#34D399" stroke-width="5.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.9s" repeatCount="indefinite"/></path>
+    <path d="M506 210 C613.0 210, 613.0 272, 720 272" fill="none" stroke="#F8FAFC" stroke-width="1.50" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.9s" repeatCount="indefinite"/></path>
+
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" opacity="0.30"/>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="1.30" stroke-linecap="round" opacity="0.28"/>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="11.75" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="8.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="5.90" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#FBBF24" stroke-width="5.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+    <path d="M506 320 C613.0 320, 613.0 272, 720 272" fill="none" stroke="#F8FAFC" stroke-width="1.50" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.3s" repeatCount="indefinite"/></path>
+
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.2s" repeatCount="indefinite"/></path>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.2s" repeatCount="indefinite"/></path>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.2s" repeatCount="indefinite"/></path>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#22D3EE" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.2s" repeatCount="indefinite"/></path>
+    <path d="M764 148 C850.0 148, 850.0 210, 936 210" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.2s" repeatCount="indefinite"/></path>
+
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.7s" repeatCount="indefinite"/></path>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.7s" repeatCount="indefinite"/></path>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.7s" repeatCount="indefinite"/></path>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#FBBF24" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.7s" repeatCount="indefinite"/></path>
+    <path d="M764 272 C850.0 272, 850.0 210, 936 210" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.7s" repeatCount="indefinite"/></path>
+
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#34D399" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 104, 1138 104" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.0s" repeatCount="indefinite"/></path>
+
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.25s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.25s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.25s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#34D399" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.25s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 210, 1138 210" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.25s" repeatCount="indefinite"/></path>
+
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round" opacity="0.30"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="1.56" stroke-linecap="round" opacity="0.28"/>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="14.10" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="9.60" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="7.08" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#34D399" stroke-width="6.00" stroke-linecap="round" stroke-dasharray="26 24" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+    <path d="M1000 210 C1069.0 210, 1069.0 316, 1138 316" fill="none" stroke="#F8FAFC" stroke-width="1.80" stroke-linecap="round" stroke-dasharray="26 24" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-50" dur="1.7s" begin="0.5s" repeatCount="indefinite"/></path>
+
+    <circle cx="482" cy="100" r="30" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0.30"><animate attributeName="r" values="30;38;30" dur="3.6s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.30;0.02;0.30" dur="3.6s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <circle cx="482" cy="100" r="21" fill="#070A12" stroke="#22D3EE" stroke-width="5.5" filter="url(#bglow)"/>
+    <circle cx="482" cy="100" r="7.5" fill="#22D3EE"/>
+
+    <circle cx="482" cy="210" r="30" fill="none" stroke="#34D399" stroke-width="1.6" opacity="0.30"><animate attributeName="r" values="30;38;30" dur="3.6s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.30;0.02;0.30" dur="3.6s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="482" cy="210" r="21" fill="#070A12" stroke="#34D399" stroke-width="5.5" filter="url(#bglow)"/>
+    <circle cx="482" cy="210" r="7.5" fill="#34D399"/>
+
+    <circle cx="482" cy="320" r="30" fill="none" stroke="#FBBF24" stroke-width="1.6" opacity="0.30"><animate attributeName="r" values="30;38;30" dur="3.6s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.30;0.02;0.30" dur="3.6s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="482" cy="320" r="21" fill="#070A12" stroke="#FBBF24" stroke-width="5.5" filter="url(#bglow)"/>
+    <circle cx="482" cy="320" r="7.5" fill="#FBBF24"/>
+
+    <rect x="718" y="124" width="48" height="48" rx="13" fill="#0C1220"
+          stroke="#22D3EE" stroke-width="5" filter="url(#bglow)"/>
+    <rect x="732" y="139" width="20" height="3.6" rx="1.8" fill="#22D3EE"/>
+    <rect x="732" y="146.2" width="14" height="3.6" rx="1.8" fill="#22D3EE" opacity="0.75"/>
+    <rect x="732" y="153.4" width="17" height="3.6" rx="1.8" fill="#22D3EE" opacity="0.5"/>
+    <rect x="718" y="248" width="48" height="48" rx="13" fill="#0C1220"
+          stroke="#FBBF24" stroke-width="5" filter="url(#bglow)"/>
+    <rect x="732" y="263" width="20" height="3.6" rx="1.8" fill="#FBBF24"/>
+    <rect x="732" y="270.2" width="14" height="3.6" rx="1.8" fill="#FBBF24" opacity="0.75"/>
+    <rect x="732" y="277.4" width="17" height="3.6" rx="1.8" fill="#FBBF24" opacity="0.5"/>
+
+    <polygon points="968,170 1008,210 968,250 928,210"
+             fill="url(#bjoinFill)" stroke="#F8FAFC" stroke-width="2.2" stroke-linejoin="round"
+             filter="url(#bsoftglow)"/>
+    <polygon points="968,197 981,210 968,223 955,210" fill="#070A12" opacity="0.85"/>
+    <polygon points="968,156 1022,210 968,264 914,210"
+             fill="none" stroke="#34D399" stroke-width="1.4" opacity="0.35"><animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/></polygon>
+
+    <polygon points="1168.00,74.00 1193.98,89.00 1193.98,119.00 1168.00,134.00 1142.02,119.00 1142.02,89.00" fill="#0C1220" stroke="#34D399" stroke-width="5"
+             stroke-linejoin="round" filter="url(#bglow)"/>
+    <rect x="1155" y="94" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.95"/>
+    <rect x="1155" y="101.6" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.68"/>
+    <rect x="1155" y="109.2" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.42"/>
+    <polygon points="1168.00,180.00 1193.98,195.00 1193.98,225.00 1168.00,240.00 1142.02,225.00 1142.02,195.00" fill="#0C1220" stroke="#34D399" stroke-width="5"
+             stroke-linejoin="round" filter="url(#bglow)"/>
+    <rect x="1155" y="200" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.95"/>
+    <rect x="1155" y="207.6" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.68"/>
+    <rect x="1155" y="215.2" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.42"/>
+    <polygon points="1168.00,286.00 1193.98,301.00 1193.98,331.00 1168.00,346.00 1142.02,331.00 1142.02,301.00" fill="#0C1220" stroke="#34D399" stroke-width="5"
+             stroke-linejoin="round" filter="url(#bglow)"/>
+    <rect x="1155" y="306" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.95"/>
+    <rect x="1155" y="313.6" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.68"/>
+    <rect x="1155" y="321.2" width="26" height="4.2" rx="2.1" fill="#34D399" opacity="0.42"/>
+
+<!-- identity mark -->
+<circle cx="208" cy="210" r="168" fill="#34D399" opacity="0.05"/>
+<circle cx="208" cy="210" r="156" fill="#070A12" opacity="0.94"/>
+<circle cx="208" cy="210" r="156" fill="none" stroke="#34D399" stroke-width="2" opacity="0.22"/>
+<circle cx="208" cy="210" r="149" fill="none" stroke="#F8FAFC" stroke-width="1" opacity="0.07"/>
+<g transform="translate(208,210) scale(0.6449)">
+  <circle cx="0" cy="0" r="214" fill="none" stroke="#F8FAFC" stroke-width="2" opacity="0.07"/>
+<g fill="none" stroke-linecap="round" opacity="0.8"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/><path d="M-176.16 71.18 A190 190 0 0 1 -167.76 -89.20" stroke="#22D3EE" stroke-width="3"/><path d="M176.16 -71.18 A190 190 0 0 1 173.57 77.28" stroke="#FBBF24" stroke-width="3"/></g>
+  <g transform="scale(1.14)"><g class="mark">
+
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="26" stroke-linecap="round" opacity="0.30"/>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="6.76" stroke-linecap="round" opacity="0.28"/>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="61.10" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="41.60" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="30.68" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmL)" stroke-width="26.00" stroke-linecap="round" stroke-dasharray="34 30" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></path>
+    <path d="M-112.0 -124.0 L0.0 16.0" fill="none" stroke="#F8FAFC" stroke-width="7.80" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></path>
+
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="26" stroke-linecap="round" opacity="0.30"/>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="6.76" stroke-linecap="round" opacity="0.28"/>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="61.10" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.100"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></path>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="41.60" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.180"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></path>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="30.68" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.340"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></path>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="url(#barmR)" stroke-width="26.00" stroke-linecap="round" stroke-dasharray="34 30" opacity="1.000"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></path>
+    <path d="M112.0 -124.0 L0.0 16.0" fill="none" stroke="#F8FAFC" stroke-width="7.80" stroke-linecap="round" stroke-dasharray="34 30" opacity="0.550"><animate attributeName="stroke-dashoffset" from="0" to="-64" dur="1.9s" begin="0.95s" repeatCount="indefinite"/></path>
+
+    <path d="M0.0 16.0 L0.0 142.0" fill="none" stroke="url(#btrunk)" stroke-width="73.50" stroke-linecap="round" opacity="0.100"/>
+    <path d="M0.0 16.0 L0.0 142.0" fill="none" stroke="url(#btrunk)" stroke-width="50.75" stroke-linecap="round" opacity="0.160"/>
+    <path d="M0.0 16.0 L0.0 142.0" fill="none" stroke="url(#btrunk)" stroke-width="35.00" stroke-linecap="round" opacity="1.000"/>
+    <path d="M0.0 16.0 L0.0 142.0" fill="none" stroke="#F8FAFC" stroke-width="11.90" stroke-linecap="round" stroke-dasharray="18 26" opacity="0.620"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.5s" begin="0.3s" repeatCount="indefinite"/></path>
+
+    <circle cx="-112" cy="-124" r="30" fill="none" stroke="#22D3EE" stroke-width="1.6" opacity="0.30"><animate attributeName="r" values="30;38;30" dur="3.6s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.30;0.02;0.30" dur="3.6s" begin="0.0s" repeatCount="indefinite"/></circle>
+    <circle cx="-112" cy="-124" r="21" fill="#070A12" stroke="#22D3EE" stroke-width="5.5" filter="url(#bglow)"/>
+    <circle cx="-112" cy="-124" r="7.5" fill="#22D3EE"/>
+
+    <circle cx="112" cy="-124" r="30" fill="none" stroke="#FBBF24" stroke-width="1.6" opacity="0.30"><animate attributeName="r" values="30;38;30" dur="3.6s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.30;0.02;0.30" dur="3.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="112" cy="-124" r="21" fill="#070A12" stroke="#FBBF24" stroke-width="5.5" filter="url(#bglow)"/>
+    <circle cx="112" cy="-124" r="7.5" fill="#FBBF24"/>
+
+    <polygon points="0,-17 33,16 0,49 -33,16" fill="url(#bjoinFill)" stroke="#F8FAFC" stroke-width="2.2"
+             stroke-linejoin="round" filter="url(#bsoftglow)"/>
+    <polygon points="0,5 11,16 0,27 -11,16"
+             fill="#070A12" opacity="0.85"/>
+    <polygon points="0,-28 44,16 0,60 -44,16"
+             fill="none" stroke="#34D399" stroke-width="1.4" opacity="0.35"><animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/></polygon>
+
+    <polygon points="0.00,112.00 25.98,127.00 25.98,157.00 0.00,172.00 -25.98,157.00 -25.98,127.00" fill="#0C1220" stroke="#34D399"
+             stroke-width="5.5" stroke-linejoin="round" filter="url(#bglow)"/>
+    <rect x="-13" y="132" width="26" height="4.4" rx="2.2" fill="#34D399" opacity="0.95"/>
+    <rect x="-13" y="139.8" width="26" height="4.4" rx="2.2" fill="#34D399" opacity="0.70"/>
+    <rect x="-13" y="147.6" width="26" height="4.4" rx="2.2" fill="#34D399" opacity="0.45"/>
+</g></g>
+</g>
+
+<rect x="0" y="415" width="1280" height="5" fill="url(#bbar)" opacity="0.9"/>
+</svg>
